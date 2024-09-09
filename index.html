@@ -14,6 +14,17 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title text-center">Iniciar Sesión</h4>
+                        <form action="login.php" method="post">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Correo electrónico</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="password" name="password" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Iniciar Sesión</button>
+                        </form>
                     </div>
                 </div>
 
